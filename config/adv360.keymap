@@ -36,6 +36,8 @@
             #binding-cells = <0>;
             bindings = <&kp G &kp G &kp LS(V) &kp LS(G)>;
             label = "NVIM_SELECT_ALL";
+            wait-ms = <150>;
+            tap-ms = <40>;
         };
 
         macro_tmux_copy_mode: tmux_copy_mode {
